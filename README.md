@@ -16,7 +16,7 @@
 ## 👩‍🚀 스터디원
 |이름|캠퍼스|사이트|역할|
 |:--:|:--:|:--:|:--:|
-|이해원|구미 1반|[@sunoftwilight](https://github.com/sunoftwilight)|스터디장|
+|이해진|구미 1반|[@sunoftwilight](https://github.com/sunoftwilight)|스터디장|
 |김다희|광주 4반|[@KimDahui42](https://github.com/KimDahui42)|노션/깃허브 관리자|
 |박주헌|부울경 1반|[@JH201421228](https://github.com/JH201421228)|스터디원|
 |김지연|구미 3반|[@jiyeon2536](https://github.com/jiyeon2536)/[티스토리 블로그](https://timedilation.tistory.com/)|스터디원|
