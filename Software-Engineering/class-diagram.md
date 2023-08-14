@@ -62,11 +62,11 @@
     - Realization(실체화) : interface의 추상 메서드를 구현하는 것, 자바의 implements
     - Dependency(의존) : 한 클래스가 다른 클래스를 참조하는 것
         - 참조 : 메서드 내에서 대상 클래스의 객체 생성, 객체 사용, 메서드 호출, 객체 리턴, 매개변수로 객체 사용 등
+    <br><br>
+   
+        ✅ **Composition ⊂ Aggregation ⊂ Association**
     
-    <aside>
-    ✅ **Composition ⊂ Aggregation ⊂ Association**
     
-    </aside>
     
     - Association(연관): 다른 객체의 참조를 가지는 필드
         - Directed Association(직접 연관)은 Association과 달리 방향성(navigability, 참조하는 쪽과 참조 당하는 쪽 구분)을 지님
