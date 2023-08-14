@@ -3,7 +3,7 @@ name: "[n주차] 스터디 기록 업데이트 "
 about: '노션 작성 문서를 깃허브로 옮깁니다. '
 title: ''
 labels: documentation
-assignees: KimDahui42, zzionyy, sunoftwilight, JH201421228
+assignees: KimDahui42, zzionyy, jiyeon2536, sunoftwilight, JH201421228
 
 ---
 
