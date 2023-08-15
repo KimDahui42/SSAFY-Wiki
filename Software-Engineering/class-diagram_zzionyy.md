@@ -11,7 +11,7 @@ UML(Unified Modeling Language)이란? **소프트웨어 시스템을 개발하�
 
 클래스 다이어그램은 구조 다이어그램으로 클래스의 속성, 함수, 변수타입들로 구성된 다이어그램이다.
 
-![Untitled](%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B3%20%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7%20038ec565df044961ba001035b9776917/Untitled.png)
+![Untitled](../src/images/class-diagram_zziony1.png)
 
 ## 클래스 다이어그램의 기본요소
 
@@ -34,7 +34,7 @@ UML(Unified Modeling Language)이란? **소프트웨어 시스템을 개발하�
 
 ## 클래스 다이어그램을 이용한 관계 표현
 
-![Untitled](%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B3%20%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7%20038ec565df044961ba001035b9776917/Untitled%201.png)
+![Untitled](../src/images/class-diagram_zziony2.png)
 
 1. 일반화 - 부모클래스와 자식클래스간의 상속관계를 나타냄
 2. 실체화 - 오버라이딩(interface의 명세,정의만 있는 메서드를 오버라이딩하여 실제 기능으로 구현)
@@ -46,14 +46,14 @@ n…m : n부터 m개까지 연관관계를 맺음
 화살표가 있는 것은 참조 하는 쪽과 참조 당하는 쪽을 구분하게 함.(직접연관)
 아래의 그림은 양방향 연관관계. 1(Board) : n(Comment)의 관계를 표시한 것
 
-![Untitled](%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B3%20%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7%20038ec565df044961ba001035b9776917/Untitled%202.png)
+![Untitled](../src/images/class-diagram_zziony3.png)
 
 1. 집합, 집합연관 - association의 집합관계를 나타내는 것으로 colleciton(Collection Framework에는 
 List, Set, Map, Queue, Stack 등 있음)이나 array를 이용하는 관계.
 aggregation(집합)은 실선에 빈 다이아몬드
 연관과 집합은 집합이라는 개념적인 차이는 있지만, 코드에서는 이 차이를 구분하기 힘들다!! >> UML은 집합이라는 개념 외에 명확한 aggregation의 정의를 제공하지 않다. 그래서 자기 나름의 정의가 많음 > 혼란유발
     
-    ![Untitled](%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B3%20%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7%20038ec565df044961ba001035b9776917/Untitled%203.png)
+    ![Untitled](../src/images/class-diagram_zziony4.png)
     
 2. 합성, 복합연관
 - composition(합성)은 집합과 비슷하게 집합관계를 나타내지만 클래스의 연관관계에서 강한 결합의 관계를 의미.
@@ -64,12 +64,12 @@ aggregation(집합)은 실선에 빈 다이아몬드
 
  >> part에 해당하는 인스턴스는 공유 될 수 없음
 
-![Untitled](%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B3%20%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7%20038ec565df044961ba001035b9776917/Untitled%204.png)
+![Untitled](../src/images/class-diagram_zziony5.png)
 
 이건 클래스다이어그램아니고 객체 다이어그램으로 객체 표현한 그림!!
 참조변수인 userA가 참조하고 있는 user객체를 복사하여 clonedUser객체를 만들고, 참조변수 userB에서 클론드유저를 참조하고 있음. user객체는 보가가 제대로 됐으나, user객체 안에서 참조하고 있는 주소는 clonedUser객체도 똑같이 참조하고 있음 ㅠㅠ 이를 얕은복사라고 한다!! 이 경우에는 part에 해당하는 주소가 공유된 것임. 
 
-![Untitled](%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B3%20%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7%20038ec565df044961ba001035b9776917/Untitled%205.png)
+![Untitled](../src/images/class-diagram_zziony6.png)
 
 user가 복사되어 clonedUser객체가 생성될 때 유저 객체가 참조하여 가지고 있는 주소또한 같이 복사되어 clonedUSer 객체는 새로운 clonedAddress객체를 참조하여 가지고있다! 이건 깊은 복사!!
 
