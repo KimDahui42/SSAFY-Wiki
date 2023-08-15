@@ -32,7 +32,7 @@
 베디 = 코치( 코치 인터페이스 구현해야함)
 코치의 기능은 크루들을 등록한다, 크루들을 등록 해제한다, 크루들에게 행동을 알린다. 세가지 기능
 
-![Untitled](%E1%84%8B%E1%85%A9%E1%86%B8%E1%84%8C%E1%85%A5%E1%84%87%E1%85%A5%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%200272ab0baffe4cbd9ebb263c83d94b0f/Untitled.png)
+![Untitled](../src/images/observer_zziony1.png)
 
 크루의 기능은 자신의 상태를 업데이트하는 기능을 가진다. 인터페이스를 정의해보자
 
@@ -81,7 +81,7 @@ public class Baedi implements Coach {
 그리고 인터페이스에 정의된 대로 3개의 함수를 구현한다. 주목할 것은 notifyCrew메서드를 각 기능에서 호출한다는 것임!!!! 그리고 크루들에게 한 명씩 업데이트 메서드를 호출하게 한다.(알림부분)
 티버(크루)는 베디의 알림을 받고싶어서 구독을 하고 싶어한다.
 
-![Untitled](%E1%84%8B%E1%85%A9%E1%86%B8%E1%84%8C%E1%85%A5%E1%84%87%E1%85%A5%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%200272ab0baffe4cbd9ebb263c83d94b0f/Untitled%201.png)
+![Untitled](../src/images/observer_zziony2.png)
 
 ```java
 public class Tiber implements Crew {

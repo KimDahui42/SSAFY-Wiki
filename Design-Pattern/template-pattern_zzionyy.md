@@ -14,10 +14,10 @@
         3. default: 같은 패키지에서만 접근 허용. 접근제한자가 선언이 안되었을 경우 기본 적용
         4. private: 자신의 클래서에서만 접근이 허용.
         
-        >> 클래스 (외부) 사용 가능: public, deffault
+        >> 클래스 (외부) 사용 가능: public, default
         >> 내부클래스, 멤버변수, 메소드 사용가능: 4가지 모두 가능.
         
-        ![Untitled](%E1%84%90%E1%85%A6%E1%86%B7%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BA%20%E1%84%86%E1%85%A6%E1%84%89%E1%85%A9%E1%84%83%E1%85%B3%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%205746018fa7f040f3b7b9c619a1a9e832/Untitled.png)
+        ![Untitled](../src/images/templateM-zziony1.png)
         
     
     ## 캡슐화
@@ -26,7 +26,7 @@
     실제 구현 내용 일부를 외부에 감추어 은닉한다.
     > 
     
-    ![Untitled](%E1%84%90%E1%85%A6%E1%86%B7%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BA%20%E1%84%86%E1%85%A6%E1%84%89%E1%85%A9%E1%84%83%E1%85%B3%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%205746018fa7f040f3b7b9c619a1a9e832/Untitled%201.png)
+    ![Untitled](../src/images/templateM-zziony2.png)
     
 
 ## 템플릿 메소드 패턴(Template Method Pattern)
@@ -48,7 +48,7 @@
 
 ## 예시
 
-![Untitled](%E1%84%90%E1%85%A6%E1%86%B7%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BA%20%E1%84%86%E1%85%A6%E1%84%89%E1%85%A9%E1%84%83%E1%85%B3%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%205746018fa7f040f3b7b9c619a1a9e832/Untitled%202.png)
+![Untitled](../src/images/templateM-zziony3.png)
 
 1. AbstractClass
 템플릿 메소드를 정의. 하위 클래스에서 알맞게 확장할 수 있는 메소드는 훅 메소드를 제공. 여기서 템플릿 메소드는 일반적인 메소드와 훅 메소드를 이용
@@ -57,7 +57,7 @@
 
 - [ ]  라면 두개를 끓여봅시다!!
 
-![Untitled](%E1%84%90%E1%85%A6%E1%86%B7%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BA%20%E1%84%86%E1%85%A6%E1%84%89%E1%85%A9%E1%84%83%E1%85%B3%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%205746018fa7f040f3b7b9c619a1a9e832/Untitled%203.png)
+![Untitled](../src/images/templateM-zziony4.png)
 
 1,2 번은 같고 3, 4번은 달라용.. 이걸 코드로 만들어본다면 ?
 
@@ -104,7 +104,7 @@ public class RaccoonRamen {
 //클래스를 정의하여 중복된 코드를 제거해봅시다
 ```
 
-![Untitled](%E1%84%90%E1%85%A6%E1%86%B7%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BA%20%E1%84%86%E1%85%A6%E1%84%89%E1%85%A9%E1%84%83%E1%85%B3%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%205746018fa7f040f3b7b9c619a1a9e832/Untitled%204.png)
+![Untitled](../src/images/templateM-zziony5.png)
 
 ```java
 public abstract class Ramen {
@@ -162,7 +162,7 @@ public class RaccoonRamen extends Ramen {
 
 ```
 
-![Untitled](%E1%84%90%E1%85%A6%E1%86%B7%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BA%20%E1%84%86%E1%85%A6%E1%84%89%E1%85%A9%E1%84%83%E1%85%B3%20%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%205746018fa7f040f3b7b9c619a1a9e832/Untitled%205.png)
+![Untitled](../src/images/templateM-zziony6.png)
 
 결과적으론 이런 구조를 갖게 됨!
 
