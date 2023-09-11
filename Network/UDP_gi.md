@@ -51,3 +51,4 @@ TCP가 지배적인 전송 계층 프로토콜임
 https://www.geeksforgeeks.org/user-datagram-protocol-udp/
 
 [https://www.techtarget.com/searchnetworking/definition/UDP-User-Datagram-Protocol#:~:text=How%20UDP%20works,packet%20length%20and%20a%20checksum.](https://www.techtarget.com/searchnetworking/definition/UDP-User-Datagram-Protocol#:~:text=How%20UDP%20works,packet%20length%20and%20a%20checksum.)
+
