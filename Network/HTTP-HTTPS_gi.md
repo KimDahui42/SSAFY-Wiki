@@ -57,6 +57,7 @@ HyperText Transfer Protocol
 
 ---
 
+
 https를 지원한다고 해서 안전성이 보장되지는 않음
 
 - 신뢰할 수 있는 CA기업이 아니라 자체적으로 인증서를 발급할 수도 있고,
